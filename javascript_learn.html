@@ -1,0 +1,327 @@
+<html>
+
+    <head>
+
+        <link rel="stylesheet" type="text/css" href="/main.css">
+        <title>JavaScript learn</title>
+
+    </head>
+
+    <body>
+
+        <div>
+            <h1 style="text-align:center">Sololearn JS</h1>
+            <h2 style="text-align:center">test paper :</h2>
+        </div>
+
+        <script src="./javascript.js"></script>
+    
+        <div class="script">
+            <script>
+                
+                // html
+                
+                    document.write("<br>");
+                var sayHello = 'Hello world! \'I am a JavaScript programmer.\'';
+                document.write(sayHello);
+                    document.write("<br>");
+                
+                
+                console.log("<br> Hey");
+                    
+
+                    document.write("<br>");
+                document.write("-- + and -<br>");
+                    document.write("<br>");
+
+                var q = 100;
+                var w = 2;
+
+                document.write("<br>",q+w);
+                document.write("<br>",q-w);
+                document.write("<br>",q*w);
+                document.write("<br>",q/w);
+                document.write("<br>",q%w);
+                document.write("<br>",q++);
+                document.write("<br>",q--);
+                document.write("<br>",++w);
+                document.write("<br>",--w);
+
+
+
+                    document.write("<br>");
+                document.write("<br> -- += and -=");
+                    document.write("<br>");
+
+                document.write("<br>",q += w);
+                document.write("<br>",q -= w);
+                document.write("<br>",q *= w);
+                document.write("<br>",q /= w);
+                document.write("<br>",q %= w);
+
+
+
+                    document.write("<br>");
+                document.write("<br> -- q==w and q < w ");
+                    document.write("<br>");
+
+                document.write("<br>",q==w);
+                document.write("<br>",q===w);
+                document.write("<br>",q!=w);
+                document.write("<br>",q!==w);
+                document.write("<br>",q>w);
+                document.write("<br>",q<w);
+                document.write("<br>",q>=w);
+                document.write("<br>",q<=w);
+
+
+
+                    document.write("<br>");
+                document.write("<br> -- && and ||");
+                    document.write("<br>");
+
+                document.write("<br>",q&&w);
+                document.write("<br>",q||w);
+                document.write("<br>",); // q!w
+
+                var age = 15;
+                var isAbult = (age < 18) ? "Too young": "Old enough"; // : = or , else
+                
+                document.write("<br>",isAbult);
+
+
+
+                    document.write("<br>");
+                document.write("<br> -- add strings");
+                    document.write("<br>");
+
+                var string1 = "I am";
+                var string2 = " say you";
+
+                document.write("<br>",string1 + string2);
+
+
+
+                    document.write("<br>");
+                document.write("<br> -- if and else and else if");
+                    document.write("<br>");
+
+                var num1 = 10;
+                var num2 = 12;
+
+                if (num1 < num2) {
+                document.write("<br> What do you do ?");
+                }
+                if (num1 > num2) {
+                document.write("<br> What do you do ?");
+                }
+                if (num1 > num2) {
+                document.write("<br> What do you do ?");
+                } 
+                else {
+                document.write("<br> What do you ask ?");
+                }
+                if (num1 > num2) {
+                document.write("<br> What do you do ?");
+                } else if (num1 < num2 ) {
+                document.write("<br> What do you doom ?");
+                }
+
+
+
+                    document.write("<br>");
+                document.write("<br> -- switch");
+                    document.write("<br>");
+
+                document.write("<br> What number week day now ?");
+                
+                var day = 5;
+                
+                document.write("<br> number day - ",day);
+                
+                switch(day){
+                    case 1 :
+                        document.write("<br> Monday");
+                        break;
+                    case 2 :
+                        document.write("<br> Tuesday");
+                        break;
+                    case 3 :
+                        document.write("<br> Wenesday");
+                        break;
+                    case 4 :
+                        document.write("<br> Thursday");
+                        break;
+                    case 5 :
+                        document.write("<br> Friday");
+                        break;
+                    case 6 :
+                        document.write("<br> Saturday");
+                        break;
+                    case 7 :
+                        document.write("<br> Sunday");
+                        break;
+                    default:
+                        document.write("<br> The week have seven days -_-")
+                }
+
+
+
+                    document.write("<br>");
+                document.write("<br> -- cycle for");
+                    document.write("<br>");
+                
+                for (i=0; i<10; i++) {
+                    document.write("<br>for - 10 times ")
+                }
+
+
+
+                    document.write("<br>");
+                document.write("<br> -- cycle while");
+                    document.write("<br>");
+                
+                var i = 0;
+                
+                while (i<=10) {
+                    document.write("<br>while - 10 times ")
+                    i++;
+                }
+
+
+
+                    document.write("<br>");
+                document.write("<br> -- cycle while do");
+                    document.write("<br>");
+                
+                var i = 0;
+                
+                do {
+                    document.write("<br>while do - 10 times ")
+                    i++;
+                } 
+                while (i<=10);
+
+
+
+                    document.write("<br>");
+                document.write("<br> -- break");
+                    document.write("<br>");
+                
+                for (i=0; i<10; i++) {
+                    if (i==9) {
+                        document.write("<br>break")
+                    }
+                }
+
+
+
+                    document.write("<br>");
+                document.write("<br>-- continue");
+                    document.write("<br>");
+                
+                for (i=0; i<10; i++) {
+                    if (i==9) {
+                        continue;
+                    }
+                    document.write("<br>continue")
+                }
+
+
+
+                    document.write("<br>");
+                document.write("<br> -- function");
+                    document.write("<br>");
+                
+                function name1(){
+                    alert("Callig function!");
+                }
+                name1();
+
+
+
+                    document.write("<br>");
+                document.write("<br> -- function with parametrs");
+                    document.write("<br>");
+                
+                function sayHello(name){
+                    alert(name);
+                }
+                //sayHello("David");
+                //sayHello("Sarah");
+                //sayHello("John");
+                
+                function sayHello2(name,age){
+                   alert("Hi , " + name + " is " + age + "years old.");
+                }
+                //sayHello2("David",3);
+                //sayHello2("Sarah",20);
+                //sayHello2("John",33);
+                
+
+
+                    document.write("<br>");
+                document.write("<br>-- return");
+                    document.write("<br>");
+                
+                function add(a , b){
+                    return a * b;
+                }
+                
+                document.write(add(2,3));
+
+
+
+                    document.write("<br>");
+                document.write("<br>-- alert, prompt, confirm");
+                    document.write("<br>");
+                
+                var user = prompt("Pelase enter your name");
+                
+                alert(user);
+                
+                var result = confirm("Do you really want to leave this page?");
+                
+                if (result == true) {
+                    alert("Thanks for visiting");
+                }
+                else {
+                    alert("Thank for staying with us");
+                }
+
+
+
+                    document.write("<br>");
+                document.write("<br>-- object in js");
+                    document.write("<br>");
+                
+                var person = {
+                    name: "John", age: 31,
+                    favColor: "green", height: 183
+                };
+                
+                document.write("<br>");
+                document.write(person.name);
+                document.write("<br>");
+                document.write(person.age);
+                document.write("<br>");
+                document.write(person.favColor);
+                document.write("<br>");
+                document.write(person.height);
+                document.write("<br>");
+                
+                var r = person.age;
+                var t = person['name'];
+                var course = {name: "meme", lesson: 41}
+                
+                document.write("<br>");
+                document.write(course.name.length); 
+
+
+            
+            </script>
+        </div>
+
+    </body>
+
+</html>

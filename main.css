@@ -1,0 +1,18 @@
+html {
+    /*height: 100%;*/
+    background-color: #c0c0c0;
+}
+
+.script {
+    text-align: center;
+    font-size: 25px;
+    background-color: #ffffff;
+    display: flex;
+    width: center;
+    right: center;
+    justify-content: center;
+    position:relative;
+    top: center;
+    margin: 0.4cm 0.4cm 0.4cm 0.4cm; 
+    border: 1cm 1cm 1cm 1cm;
+}
