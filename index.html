@@ -320,6 +320,24 @@
 
 
             
+                    document.write("<br>");
+                document.write("<br>-- method");
+                    document.write("<br>");
+
+                function person2(name, age){
+                    this.name = name;
+                    this.age = age;
+                    this.yearOFBirth = bornYear;
+                }
+
+                function bornYear(){
+                    return 2016 - this.age;
+                }
+
+                var p9 = new person2("A", 22);
+                document.write("<br>");
+                document.write(p9.yearOFBirth());
+
             </script>
         </div>
 
