@@ -426,71 +426,94 @@
                     document.write("<br>");
 
                 document.write("<br>");
+
                 document.write("E = ",Math.E);
                 document.write("<br>");
+
                 document.write("Ln 2 = ",Math.LN2);
                 document.write("<br>");
+
                 document.write("Ln 10 = ",Math.LN10);
                 document.write("<br>");
+
                 document.write("Log 2 = ",Math.LOG2E);
                 document.write("<br>");
+
                 document.write("Log 10 = ",Math.LOG10E);
                 document.write("<br>");
+
                 document.write("PI = ",Math.PI);
                 document.write("<br>"); 
 
                 var number = Math.abs(4);
                 document.write("<br>"); 
                 document.write(number);
+
                 var number1 = Math.acos(4);
                 document.write("<br>"); 
                 document.write(number1); 
+
                 var number2 = Math.asin(4);
                 document.write("<br>"); 
-                document.write(number2); 
+                document.write(number2);
+
                 var number3 = Math.atan(4);
                 document.write("<br>"); 
                 document.write(number3); 
+
                 var number4 = Math.atan2(4,5);
                 document.write("<br>"); 
                 document.write(number4); 
+
                 var number5 = Math.ceil(4);
                 document.write("<br>"); 
                 document.write(number5); 
+
                 var number6 = Math.cos(4);
                 document.write("<br>"); 
                 document.write(number6); 
+
                 var number7 = Math.exp(4);
                 document.write("<br>"); 
                 document.write(number7); 
+
                 var number8 = Math.floor(4);
                 document.write("<br>"); 
                 document.write(number8); 
+
                 var number9 = Math.log(4);
                 document.write("<br>"); 
                 document.write(number9); 
+
                 var number10 = Math.max(4,5,6,7);
                 document.write("<br>"); 
                 document.write(number10); 
+
                 var number11 = Math.min(4,5,6,7);
                 document.write("<br>"); 
                 document.write(number11); 
+
                 var number12 = Math.pow(4,5);
                 document.write("<br>"); 
                 document.write(number12); 
+                
                 var number13 = Math.random();
                 document.write("<br>"); 
                 document.write(number13); 
-                var number14 = Math.raund(4);
+
+                /*var number14 = Math.raund(2);
                 document.write("<br>"); 
-                document.write(number14); 
-                var number15 = Math.sin(4);
+                document.write(number14);*/ 
+
+                var number15 = Math.sin(2);
                 document.write("<br>"); 
                 document.write(number15); 
-                var number16 = Math.sqrt(4);
+
+                var number16 = Math.sqrt(2);
                 document.write("<br>"); 
-                document.write(number16); 
-                var number17 = Math.tan(4);
+                document.write(number16);
+
+                var number17 = Math.tan(2);
                 document.write("<br>"); 
                 document.write(number17);
                   
@@ -498,6 +521,74 @@
                 var answer = Math.sqrt(n);
                 alert("The square root of "+ n + " is " + answer);
                 //document.write("The square root of "+ n + " is " + answer);
+
+
+
+                    document.write("<br>");
+                document.write("<br>-- object date");
+                    document.write("<br>");
+
+                function myAleart(){
+                   alert("Hi");
+                }
+                //setInterval(myAleart, 3000); // 1000 ms - 1 s
+                //clearInterval();
+
+                var d = new Date();
+                document.write("<br>");
+                document.write(d);
+
+                var d1 = new Date(79000);//milliseconds
+                document.write("<br>");
+                document.write(d1);
+
+                var d2 = new Date("January 2, 2015 10:42:00");//dateString
+                document.write("<br>");
+                document.write(d2);
+
+                var d3 = new Date(88, 5, 11, 11, 42, 0, 0);//year, month, day, hours, minutes, seconds, milliseconds
+                document.write("<br>");
+                document.write(d3);
+
+                var d4 = new Date();
+                var fullyear = d4.getFullYear();
+                document.write("<br>");
+                document.write(fullyear);
+
+                var d5 = new Date();
+                var month = d5.getMonth();
+                document.write("<br>");
+                document.write(month);
+
+                var d6 = new Date();
+                var monthday = d6.getDate();
+                document.write("<br>");
+                document.write(monthday);
+
+                var d7 = new Date();
+                var weekday = d7.getDay();
+                document.write("<br>");
+                document.write(weekday);
+
+                var d8 = new Date();
+                var hours = d8.getHours();
+                document.write("<br>");
+                document.write(hours);
+
+                var d9 = new Date();
+                var minutes = d9.getMinutes();
+                document.write("<br>");
+                document.write(minutes);
+
+                var d10 = new Date();
+                var seconds = d10.getSeconds();
+                document.write("<br>");
+                document.write(seconds);
+
+                var d11 = new Date();
+                var milliseconds = d11.getMilliseconds();
+                document.write("<br>");
+                document.write(milliseconds);
 
             </script>
         </div>
